@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container my-5 p-5">
+      <a href="/home">
+      <button class="btn btn-warning mb-5">Back</button>
+
+      </a>
+        <form action="/compose" method="post">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">sender Email</label>
+              <input type="email" name="jisko" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+    
+            <div class="form-floating">
+                <textarea name="mailtext" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comments</label>
+              </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+          </form>
+    </div>
+</body>
+</html>
